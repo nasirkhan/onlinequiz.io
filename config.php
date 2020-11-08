@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 
 return [
     'baseUrl' => '',
-    'production' => false,
+    'production' => true,
     'siteName' => 'Online Quiz Contest Platform',
     'siteDescription' => 'A place to organize large online contests with big number of participants. ',
     'siteAuthor' => 'Nasir Khan',
