@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Online Quiz Contest Platform</title>
-    <link href="http://onlinequiz.io/blog" />
-    <link type="application/atom+xml" rel="self" href="http://onlinequiz.io/blog/feed.atom" />
-    <updated>2020-11-08T07:01:39+00:00</updated>
-    <id>http://onlinequiz.io/blog/feed.atom</id>
+    <link href="https://nasirkhan.github.io/onlinequiz.io/blog" />
+    <link type="application/atom+xml" rel="self" href="https://nasirkhan.github.io/onlinequiz.io/blog/feed.atom" />
+    <updated>2020-11-08T07:13:32+00:00</updated>
+    <id>https://nasirkhan.github.io/onlinequiz.io/blog/feed.atom</id>
     <author>
         <name>Nasir Khan</name>
     </author>
                 <entry>
-    <id>http://onlinequiz.io/getting-started</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/getting-started" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/getting-started</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/getting-started" />
     <title>Getting Started</title>
     <published>2018-12-25T00:00:00+00:00</published>
     <updated>2018-12-25T00:00:00+00:00</updated>
@@ -84,8 +84,8 @@ npm run dev
     ]]></content>
 </entry>
             <entry>
-    <id>http://onlinequiz.io/customizing-your-site</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/customizing-your-site" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/customizing-your-site</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/customizing-your-site" />
     <title>Customizing Your Site</title>
     <published>2018-12-24T00:00:00+00:00</published>
     <updated>2018-12-24T00:00:00+00:00</updated>
@@ -190,8 +190,8 @@ npm run dev
     ]]></content>
 </entry>
             <entry>
-    <id>http://onlinequiz.io/custom-404-page</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/custom-404-page" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/custom-404-page</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/custom-404-page" />
     <title>Custom 404 Pages</title>
     <published>2018-12-23T00:00:00+00:00</published>
     <updated>2018-12-23T00:00:00+00:00</updated>
@@ -233,8 +233,8 @@ Depending on where your site is hosted, you may need to......</summary>
     ]]></content>
 </entry>
             <entry>
-    <id>http://onlinequiz.io/fuse-search</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/fuse-search" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/fuse-search</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/fuse-search" />
     <title>Fuse Search</title>
     <published>2018-12-22T00:00:00+00:00</published>
     <updated>2018-12-22T00:00:00+00:00</updated>
@@ -251,8 +251,8 @@ Depending on where your site is hosted, you may need to......</summary>
     ]]></content>
 </entry>
             <entry>
-    <id>http://onlinequiz.io/mailchimp-newsletters</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/mailchimp-newsletters" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/mailchimp-newsletters</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/mailchimp-newsletters" />
     <title>Mailchimp Newsletters</title>
     <published>2018-11-21T00:00:00+00:00</published>
     <updated>2018-11-21T00:00:00+00:00</updated>
@@ -297,8 +297,8 @@ To begin accepting......</summary>
     ]]></content>
 </entry>
             <entry>
-    <id>http://onlinequiz.io/my-first-blog-post</id>
-    <link type="text/html" rel="alternate" href="http://onlinequiz.io/my-first-blog-post" />
+    <id>https://nasirkhan.github.io/onlinequiz.io/my-first-blog-post</id>
+    <link type="text/html" rel="alternate" href="https://nasirkhan.github.io/onlinequiz.io/my-first-blog-post" />
     <title>My First Blog Post</title>
     <published>2017-03-23T00:00:00+00:00</published>
     <updated>2017-03-23T00:00:00+00:00</updated>
