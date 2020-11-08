@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'http://onlinequiz.io',
+    'baseUrl' => 'https://nasirkhan.github.io/onlinequiz.io/',
     'production' => true,
 ];
