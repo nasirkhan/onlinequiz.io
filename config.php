@@ -26,11 +26,6 @@ return [
         ],
     ],
 
-    // build path update
-    'build' => [
-        'destination' => 'build_{env}/onlinequiz.io',
-    ],
-
     // helpers
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
