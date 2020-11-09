@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 
 return [
     'baseUrl' => '',
-    'production' => true,
+    'production' => false,
     'siteName' => 'Online Quiz Contest Platform',
     'siteDescription' => 'A place to organize large online contests with big number of participants. ',
     'siteAuthor' => 'Nasir Khan',
@@ -24,6 +24,11 @@ return [
                 });
             },
         ],
+    ],
+
+    // build path update
+    'build' => [
+        'destination' => 'build_{env}/onlinequiz.io',
     ],
 
     // helpers
