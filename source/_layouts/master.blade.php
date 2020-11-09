@@ -22,7 +22,7 @@
         @endif
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{($page->github_project != "") ? "/".$page->github_project : ""}}{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
@@ -65,7 +65,7 @@
             </ul>
         </footer>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{($page->github_project != "") ? "/".$page->github_project : ""}}{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
     </body>

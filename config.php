@@ -9,6 +9,9 @@ return [
     'siteDescription' => 'A place to organize large online contests with big number of participants. ',
     'siteAuthor' => 'Nasir Khan',
 
+    // project name to fix the asset path issue in production
+    'github_project' => "",
+
     // collections
     'collections' => [
         'posts' => [
