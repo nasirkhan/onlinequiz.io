@@ -9,9 +9,6 @@ return [
     'siteDescription' => 'A place to organize large online contests with big number of participants. ',
     'siteAuthor' => 'Nasir Khan',
 
-    // project name to fix the asset path issue in production
-    'github_project' => "",
-
     // collections
     'collections' => [
         'posts' => [
@@ -63,4 +60,10 @@ return [
     'isActive' => function ($page, $path) {
         return Str::endsWith(trimPath($page->getPath()), trimPath($path));
     },
+
+    // Adds the baseUrl with the relative path
+    'asset' => function ($page, $path) {
+        $asset_path = trim($page->baseUrl, '/') . $path;
+        return $asset_path;
+    }
 ];
