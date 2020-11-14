@@ -60,7 +60,7 @@
             class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-500 rounded-full focus:outline-none h-10 px-3"
             @click.prevent="showInput"
         >
-            <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
+            <img src="/onlinequiz.i/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
         </button>
     </div>
 </template>
@@ -92,7 +92,7 @@ export default {
         },
     },
     created() {
-        axios('/index.json').then(response => {
+        axios('/onlinequiz.io/index.json').then(response => {
             this.fuse = new fuse(response.data, {
                 minMatchCharLength: 6,
                 keys: ['title', 'snippet', 'categories'],
@@ -104,7 +104,7 @@ export default {
 
 <style>
 input[name='search'] {
-    background-image: url('/assets/img/magnifying-glass.svg');
+    background-image: url('/onlinequiz.io/assets/img/magnifying-glass.svg');
     background-position: 0.8em;
     background-repeat: no-repeat;
     border-radius: 25px;
